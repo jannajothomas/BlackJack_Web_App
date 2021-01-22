@@ -1,0 +1,323 @@
+/*
+   PHP Blackjack project style sheet
+   Author:Janna Thomas
+   Date:  9/25/2020
+
+   Filename:        Style.css
+   Supporting Files:none
+
+*/
+
+/* Section Styles */
+
+body{
+    position: absolute;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: rgb(53, 101, 77);
+    font-family: Courier, monospace;
+}
+
+header{
+    margin-top:0;
+    padding-bottom:1%;
+    height: 15%;
+}
+
+h1{
+    background-color: white;
+    color: rgb(53, 101, 77);
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0.5%;
+    border-width: 0.5em;
+    border-color:rgb(83, 131, 107);
+    border-style: groove;
+    border-radius: 20px;
+    font-size: 2.0vw;
+}
+
+div{
+    margin:0;
+    padding:0;
+    display:block;
+    float:left;
+}
+
+.card{
+    margin: 0;
+    padding: 0;
+    font-size: 10.5vw;
+}
+card.ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+card.li{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.playerHand{
+    position:absolute;
+    width: 80%;
+    height:30%;
+    margin:0;
+    padding:0;
+    top:19%;
+    left:2%;
+}
+
+.houseHand{
+    position:absolute;
+    width: 80%;
+    height:30%;
+    margin:0;
+    padding:0;
+    top: 51%;
+    left:2%;
+    display:block;
+}
+
+.playerScore{
+    display: block;
+    text-align: center;
+    height:35%;
+    width:20%;
+    position: absolute;
+    top:19%;
+    right: 0;
+    font-size: 10vw;
+    float: right;
+}
+
+.houseScore{
+    display: block;
+    text-align: center;
+    height:35%;
+    width: 20%;
+    top: 51%;
+    right:0;
+    position: absolute;
+    font-size: 10vw;
+    float: right;
+}
+
+/*Styles for footer sections */
+
+footer{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    position:absolute;
+    bottom:0;
+    border: #222222 3px solid;
+    font-size: 1.5vw;
+}
+
+/* Left side footer info*/
+.footer_info{
+    position: relative;
+    left: 0;
+    width: 25%;
+    bottom: 0;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+/*Center section footer info*/
+.footer_user_select{
+    position: absolute;
+    left: 24.8%;
+    height: 100%;
+    width: 45%;
+    border-left: #222222 3px solid;
+    border-right: #222222 3px solid;
+    bottom: 0;
+    margin:0;
+}
+
+
+
+/* IS THIS STILL VALID*/
+form#form_new_user{
+    margin:0;
+    padding:0;
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+
+fieldset#createUser{
+    margin:0;
+    padding:0;
+    width: 100%;
+    float: left;
+    float: top;
+    height: 100%;
+}
+
+fieldset#setBet{
+    margin:0;
+    padding:0;
+    width: 100%;
+    float: left;
+    float: top;
+    height: 100%;
+}
+
+form#form_select_user{
+    margin:0;
+    padding:0;
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+form#form_select_user label{
+    text-align: center;
+    width: 50%;
+    margin-right:25%;
+    margin-left:25%;
+    margin-top:2%;
+}
+
+form#form_bet label{
+    text-align: center;
+    width: 50%;
+    margin-right:25%;
+    margin-left:25%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-bottom:2%;
+}
+
+form#form_bet {
+    height:100%;
+}
+
+fieldset#selectUser{
+    width: 100%;
+    float: right;
+    margin:0;
+    padding:0;
+    height:100%;
+    float: top;
+}
+
+/* Right section footer info */
+.footer_controls{
+    position: absolute;
+    width: 30%;
+    right:0;
+    bottom:0;
+    height: 100%;
+}
+
+.div_place_bet{
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+input[type=number]{
+    margin-right:25%;
+    width: 50%;
+    margin-left:25%;
+    font-size: 1vw;
+    margin-top: 2%;
+    margin-bottom:2%;
+    padding:2%;
+}
+
+.div_actions {
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+}
+.div_actions input[type=submit]{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+table, th, td{
+    font-size: 1vw;
+    line-height: 0;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+label{
+    clear: left;
+    display:block;
+    float: left;
+    font-size: 1vw;
+    width: 30%;
+    padding-top: 2%;
+}
+
+
+
+.user_select_table{
+    padding: 0 30px;
+}
+
+input{
+    height:1.5vw;
+    float: left;
+    display:block;
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+
+input[type=submit] {
+    background-color: rgb(53, 101, 77);
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top:2%;
+    font-size: 1vw;
+    width: 80%;
+    height:2vw;
+}
+
+select{
+    font-size: 1vw;
+    width: 80%;
+    padding: 2%;
+    margin: 2%;
+}
+
+fieldset {
+    border: 0;
+}
