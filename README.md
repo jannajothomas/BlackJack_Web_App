@@ -1,3 +1,5 @@
+BlackJack web app written for a school PHP project
+
 This blackjack program was written by Janna Thomas for the PHP
 moderately complex assignment.
 
